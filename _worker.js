@@ -14,7 +14,7 @@ let userID = '4b01437e-d9e8-48eb-836c-e0d7456023e5';
 const proxyIPs= ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
 
 const defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
-const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
+const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096', '8443'];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
