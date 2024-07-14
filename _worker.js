@@ -843,9 +843,6 @@ const generateRemark = (index, port) => {
     return remark;
 }
 
-    return remark;
-}
-
 const extractVlessParams = async (vlessConfig) => {
     const url = new URL(vlessConfig.replace('vless', 'http'));
     const params = new URLSearchParams(url.search);
